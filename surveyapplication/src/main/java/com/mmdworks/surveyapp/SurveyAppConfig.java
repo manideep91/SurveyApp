@@ -17,6 +17,7 @@ import org.springframework.orm.hibernate4.LocalSessionFactoryBean;
 @PropertySource("classpath:hibernate.properties")})
 public class SurveyAppConfig {
    
+	
 		// DB properties const.properties
 		@Value("${db.driver}")
 		private String DATABASE_DRIVER;
